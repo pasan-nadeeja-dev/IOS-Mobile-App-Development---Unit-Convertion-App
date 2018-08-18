@@ -23,6 +23,19 @@
 		92B04FD021272D950093D5BC /* ConvertTempToCelcius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B04FCF21272D950093D5BC /* ConvertTempToCelcius.swift */; };
 		92B04FD221272DA50093D5BC /* ConvertTempToFahreheit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B04FD121272DA50093D5BC /* ConvertTempToFahreheit.swift */; };
 		92B04FD421272DAE0093D5BC /* ConvertTempToKelvin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B04FD321272DAE0093D5BC /* ConvertTempToKelvin.swift */; };
+		92E1801721285FD00012B806 /* DistanceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E1801621285FD00012B806 /* DistanceModel.swift */; };
+		92E180192128610E0012B806 /* ConvertDistanceToMetre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E180182128610E0012B806 /* ConvertDistanceToMetre.swift */; };
+		92E1801B2128612F0012B806 /* ConvertDistanceToKilometre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E1801A2128612F0012B806 /* ConvertDistanceToKilometre.swift */; };
+		92E1801D2128613A0012B806 /* ConvertDistanceToMile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E1801C2128613A0012B806 /* ConvertDistanceToMile.swift */; };
+		92E1801F2128614B0012B806 /* ConvertDistanceToFoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E1801E2128614B0012B806 /* ConvertDistanceToFoot.swift */; };
+		92E18021212861580012B806 /* ConvertDIstanceToYard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E18020212861580012B806 /* ConvertDIstanceToYard.swift */; };
+		92E18023212869CB0012B806 /* DistanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E18022212869CB0012B806 /* DistanceViewController.swift */; };
+		92E18026212872920012B806 /* SpeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E18025212872920012B806 /* SpeedModel.swift */; };
+		92E18028212872CE0012B806 /* ConvertSpeedToMetrePerSec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E18027212872CE0012B806 /* ConvertSpeedToMetrePerSec.swift */; };
+		92E1802A212872EF0012B806 /* ConvertSpeedToFeetPerMinute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E18029212872EF0012B806 /* ConvertSpeedToFeetPerMinute.swift */; };
+		92E1802C2128731E0012B806 /* ConvertSpeedToKMPH.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E1802B2128731E0012B806 /* ConvertSpeedToKMPH.swift */; };
+		92E1802E212873320012B806 /* ConvertSpeedToMPH.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E1802D212873320012B806 /* ConvertSpeedToMPH.swift */; };
+		92E18030212878B30012B806 /* SpeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E1802F212878B30012B806 /* SpeedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +57,19 @@
 		92B04FCF21272D950093D5BC /* ConvertTempToCelcius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertTempToCelcius.swift; sourceTree = "<group>"; };
 		92B04FD121272DA50093D5BC /* ConvertTempToFahreheit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertTempToFahreheit.swift; sourceTree = "<group>"; };
 		92B04FD321272DAE0093D5BC /* ConvertTempToKelvin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertTempToKelvin.swift; sourceTree = "<group>"; };
+		92E1801621285FD00012B806 /* DistanceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceModel.swift; sourceTree = "<group>"; };
+		92E180182128610E0012B806 /* ConvertDistanceToMetre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertDistanceToMetre.swift; sourceTree = "<group>"; };
+		92E1801A2128612F0012B806 /* ConvertDistanceToKilometre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertDistanceToKilometre.swift; sourceTree = "<group>"; };
+		92E1801C2128613A0012B806 /* ConvertDistanceToMile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertDistanceToMile.swift; sourceTree = "<group>"; };
+		92E1801E2128614B0012B806 /* ConvertDistanceToFoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertDistanceToFoot.swift; sourceTree = "<group>"; };
+		92E18020212861580012B806 /* ConvertDIstanceToYard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertDIstanceToYard.swift; sourceTree = "<group>"; };
+		92E18022212869CB0012B806 /* DistanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceViewController.swift; sourceTree = "<group>"; };
+		92E18025212872920012B806 /* SpeedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedModel.swift; sourceTree = "<group>"; };
+		92E18027212872CE0012B806 /* ConvertSpeedToMetrePerSec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertSpeedToMetrePerSec.swift; sourceTree = "<group>"; };
+		92E18029212872EF0012B806 /* ConvertSpeedToFeetPerMinute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertSpeedToFeetPerMinute.swift; sourceTree = "<group>"; };
+		92E1802B2128731E0012B806 /* ConvertSpeedToKMPH.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertSpeedToKMPH.swift; sourceTree = "<group>"; };
+		92E1802D212873320012B806 /* ConvertSpeedToMPH.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertSpeedToMPH.swift; sourceTree = "<group>"; };
+		92E1802F212878B30012B806 /* SpeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +88,8 @@
 			children = (
 				92B04FBD2127003B0093D5BC /* WeightViewController.swift */,
 				92B04FCA21272BB60093D5BC /* TemperatureViewController.swift */,
+				92E18022212869CB0012B806 /* DistanceViewController.swift */,
+				92E1802F212878B30012B806 /* SpeedViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -69,6 +97,8 @@
 		92272A1F2125D1B300587225 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				92E18024212872730012B806 /* SpeedModel */,
+				92E1801321285F010012B806 /* DistanceModel */,
 				92B04FCC21272D1A0093D5BC /* TemperatureModel */,
 				92B04FBF212707EC0093D5BC /* WeightModel */,
 			);
@@ -127,6 +157,31 @@
 				92B04FD321272DAE0093D5BC /* ConvertTempToKelvin.swift */,
 			);
 			path = TemperatureModel;
+			sourceTree = "<group>";
+		};
+		92E1801321285F010012B806 /* DistanceModel */ = {
+			isa = PBXGroup;
+			children = (
+				92E1801621285FD00012B806 /* DistanceModel.swift */,
+				92E180182128610E0012B806 /* ConvertDistanceToMetre.swift */,
+				92E1801A2128612F0012B806 /* ConvertDistanceToKilometre.swift */,
+				92E1801C2128613A0012B806 /* ConvertDistanceToMile.swift */,
+				92E1801E2128614B0012B806 /* ConvertDistanceToFoot.swift */,
+				92E18020212861580012B806 /* ConvertDIstanceToYard.swift */,
+			);
+			path = DistanceModel;
+			sourceTree = "<group>";
+		};
+		92E18024212872730012B806 /* SpeedModel */ = {
+			isa = PBXGroup;
+			children = (
+				92E18025212872920012B806 /* SpeedModel.swift */,
+				92E18027212872CE0012B806 /* ConvertSpeedToMetrePerSec.swift */,
+				92E18029212872EF0012B806 /* ConvertSpeedToFeetPerMinute.swift */,
+				92E1802B2128731E0012B806 /* ConvertSpeedToKMPH.swift */,
+				92E1802D212873320012B806 /* ConvertSpeedToMPH.swift */,
+			);
+			path = SpeedModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,18 +257,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				92B04FBE2127003B0093D5BC /* WeightViewController.swift in Sources */,
+				92E18026212872920012B806 /* SpeedModel.swift in Sources */,
 				92B04FC5212709D00093D5BC /* ConvertWeightTopound.swift in Sources */,
 				92B04FD021272D950093D5BC /* ConvertTempToCelcius.swift in Sources */,
+				92E1801D2128613A0012B806 /* ConvertDistanceToMile.swift in Sources */,
 				92B04FC721270A110093D5BC /* ConvertWeightToOunce.swift in Sources */,
 				92492791212323B00093AB84 /* ViewController.swift in Sources */,
+				92E180192128610E0012B806 /* ConvertDistanceToMetre.swift in Sources */,
+				92E1802C2128731E0012B806 /* ConvertSpeedToKMPH.swift in Sources */,
+				92E18021212861580012B806 /* ConvertDIstanceToYard.swift in Sources */,
 				92B04FC32127098E0093D5BC /* ConvertWeightToKilogram.swift in Sources */,
+				92E1801721285FD00012B806 /* DistanceModel.swift in Sources */,
 				92B04FD421272DAE0093D5BC /* ConvertTempToKelvin.swift in Sources */,
+				92E1802A212872EF0012B806 /* ConvertSpeedToFeetPerMinute.swift in Sources */,
 				92B04FC921270A950093D5BC /* WeightModel.swift in Sources */,
 				92B04FCE21272D350093D5BC /* TemperatureModel.swift in Sources */,
+				92E18023212869CB0012B806 /* DistanceViewController.swift in Sources */,
+				92E1802E212873320012B806 /* ConvertSpeedToMPH.swift in Sources */,
+				92E18030212878B30012B806 /* SpeedViewController.swift in Sources */,
 				9249278F212323B00093AB84 /* AppDelegate.swift in Sources */,
+				92E1801B2128612F0012B806 /* ConvertDistanceToKilometre.swift in Sources */,
 				92B04FD221272DA50093D5BC /* ConvertTempToFahreheit.swift in Sources */,
 				92B04FC12127085F0093D5BC /* ConvertWeightToGram.swift in Sources */,
 				92B04FCB21272BB60093D5BC /* TemperatureViewController.swift in Sources */,
+				92E18028212872CE0012B806 /* ConvertSpeedToMetrePerSec.swift in Sources */,
+				92E1801F2128614B0012B806 /* ConvertDistanceToFoot.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

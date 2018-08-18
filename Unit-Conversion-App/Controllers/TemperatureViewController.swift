@@ -57,6 +57,7 @@ class TemperatureViewController: UIViewController {
         view.endEditing(true)
     }
     
+    //clear fields when touch for inputs
     func clearField(){
         self.celciusTextField.text = ""
         self.fahrenheitTextField.text = ""
@@ -74,8 +75,5 @@ class TemperatureViewController: UIViewController {
     @IBAction func kelvinTouchBegin(_ sender: Any) {
         clearField()
     }
-    
-    
-    
-
+ 
 }

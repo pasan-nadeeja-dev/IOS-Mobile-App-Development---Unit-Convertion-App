@@ -13,7 +13,7 @@
         <!--Speed-->
         <scene sceneID="dgF-If-zuk">
             <objects>
-                <viewController id="qIf-NR-MRm" sceneMemberID="viewController">
+                <viewController id="qIf-NR-MRm" customClass="SpeedViewController" customModule="Unit_Conversion_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FXm-0L-fLm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -38,6 +38,10 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="metrePerSecTouchBegin:" destination="qIf-NR-MRm" eventType="editingDidBegin" id="Rpy-V0-bhD"/>
+                                    <action selector="metre_per_sec_convertion:" destination="qIf-NR-MRm" eventType="editingChanged" id="GRo-3T-0lk"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Feet per minute" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ll9-T1-xxt">
                                 <rect key="frame" x="16" y="182" width="129" height="24"/>
@@ -52,6 +56,10 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="feetPerMinuteTouchBegin:" destination="qIf-NR-MRm" eventType="editingDidBegin" id="Gn6-U4-Pgc"/>
+                                    <action selector="foot_per_minute_convertion:" destination="qIf-NR-MRm" eventType="editingChanged" id="EB9-f8-vmG"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Kilometre per hour" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vAT-Ta-f1d">
                                 <rect key="frame" x="16" y="259" width="146" height="24"/>
@@ -66,6 +74,10 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="kmphTouchBegin:" destination="qIf-NR-MRm" eventType="editingDidBegin" id="dMW-I7-2BP"/>
+                                    <action selector="kmph_convertion:" destination="qIf-NR-MRm" eventType="editingChanged" id="zQc-5W-dvJ"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Miles per hour" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="krr-qO-G7b">
                                 <rect key="frame" x="16" y="336" width="113" height="24"/>
@@ -80,12 +92,22 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="mphTouchBegin:" destination="qIf-NR-MRm" eventType="editingDidBegin" id="NmD-t2-cw5"/>
+                                    <action selector="mph_convertion:" destination="qIf-NR-MRm" eventType="editingChanged" id="hcn-eE-kVA"/>
+                                </connections>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="a6Z-fA-y0S"/>
                     </view>
                     <navigationItem key="navigationItem" title="Speed" id="duO-or-Ez5"/>
+                    <connections>
+                        <outlet property="footPerMinuteTextField" destination="6ff-yO-Hm4" id="bTI-w4-gkj"/>
+                        <outlet property="kmphTextField" destination="4Bv-aS-EX0" id="84y-7Z-FtU"/>
+                        <outlet property="metrePerSecTextfield" destination="qUQ-P5-Mgc" id="egN-G4-9Qw"/>
+                        <outlet property="mphTextField" destination="AwR-7S-ocr" id="nr8-2i-pRc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kbl-LR-zDd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -94,7 +116,7 @@
         <!--Distance-->
         <scene sceneID="PNo-fe-Mhh">
             <objects>
-                <viewController id="nfN-O6-GCA" sceneMemberID="viewController">
+                <viewController id="nfN-O6-GCA" customClass="DistanceViewController" customModule="Unit_Conversion_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="131-Iu-2XQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -147,6 +169,10 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="metreTouchBegin:" destination="nfN-O6-GCA" eventType="editingDidBegin" id="Lav-Ok-kco"/>
+                                    <action selector="metre_convertion:" destination="nfN-O6-GCA" eventType="editingChanged" id="Fzl-BT-HcV"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vBy-sC-Enx">
                                 <rect key="frame" x="139" y="176" width="220" height="30"/>
@@ -154,6 +180,10 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="footTouchBegin:" destination="nfN-O6-GCA" eventType="editingDidBegin" id="zIG-iV-ivP"/>
+                                    <action selector="foot_convertion:" destination="nfN-O6-GCA" eventType="editingChanged" id="Lby-85-YJV"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EQD-mp-FdM">
                                 <rect key="frame" x="139" y="249" width="220" height="30"/>
@@ -161,6 +191,10 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="yardTouchBegin:" destination="nfN-O6-GCA" eventType="editingDidBegin" id="zmd-y9-4R0"/>
+                                    <action selector="yard_convertion:" destination="nfN-O6-GCA" eventType="editingChanged" id="QCy-pI-15u"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="n4b-Sb-0UX">
                                 <rect key="frame" x="139" y="318" width="220" height="30"/>
@@ -168,6 +202,10 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="kilometreTouchBegin:" destination="nfN-O6-GCA" eventType="editingDidBegin" id="KyT-mo-lyB"/>
+                                    <action selector="kilometre_convertion:" destination="nfN-O6-GCA" eventType="editingChanged" id="EhA-t7-G5b"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mm9-Gj-xdL">
                                 <rect key="frame" x="139" y="395" width="220" height="30"/>
@@ -175,12 +213,23 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="mileTouchBegin:" destination="nfN-O6-GCA" eventType="editingDidBegin" id="T4i-iX-cm9"/>
+                                    <action selector="mile_convertion:" destination="nfN-O6-GCA" eventType="editingChanged" id="Uqg-0Z-QlZ"/>
+                                </connections>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="fsB-3b-x3n"/>
                     </view>
                     <navigationItem key="navigationItem" title="Distance" id="hrv-ES-lnS"/>
+                    <connections>
+                        <outlet property="footTextField" destination="vBy-sC-Enx" id="tKg-Ff-E4S"/>
+                        <outlet property="kilometreTextField" destination="n4b-Sb-0UX" id="bg8-lR-mWx"/>
+                        <outlet property="metereTextField" destination="hAm-V0-aGj" id="FpX-jE-Iab"/>
+                        <outlet property="mileTextField" destination="mm9-Gj-xdL" id="Rvg-2l-LNi"/>
+                        <outlet property="yardTextField" destination="EQD-mp-FdM" id="UwU-l5-WM5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="emv-SW-dEG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
