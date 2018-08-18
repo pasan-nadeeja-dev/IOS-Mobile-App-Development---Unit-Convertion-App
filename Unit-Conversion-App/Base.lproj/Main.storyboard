@@ -20,76 +20,70 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Speed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i8X-Nx-Ujo">
-                                <rect key="frame" x="151" y="35" width="72" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="72" id="f3b-3l-0m1"/>
-                                </constraints>
+                                <rect key="frame" x="152" y="35" width="70" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Metre per sec" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cP4-aq-0WS">
-                                <rect key="frame" x="16" y="105" width="113" height="24"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="113" id="OSv-Qf-3eo"/>
-                                </constraints>
+                                <rect key="frame" x="16" y="105" width="109.5" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qUQ-P5-Mgc">
-                                <rect key="frame" x="166" y="102" width="193" height="30"/>
+                                <rect key="frame" x="162.5" y="102" width="196.5" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="alert" enablesReturnKeyAutomatically="YES"/>
                                 <connections>
                                     <action selector="metrePerSecTouchBegin:" destination="qIf-NR-MRm" eventType="editingDidBegin" id="Rpy-V0-bhD"/>
                                     <action selector="metre_per_sec_convertion:" destination="qIf-NR-MRm" eventType="editingChanged" id="GRo-3T-0lk"/>
                                 </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Feet per minute" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ll9-T1-xxt">
-                                <rect key="frame" x="16" y="182" width="129" height="24"/>
+                                <rect key="frame" x="16" y="182" width="125.5" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6ff-yO-Hm4">
-                                <rect key="frame" x="166" y="179" width="193" height="30"/>
+                                <rect key="frame" x="162.5" y="179" width="196.5" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="alert"/>
                                 <connections>
                                     <action selector="feetPerMinuteTouchBegin:" destination="qIf-NR-MRm" eventType="editingDidBegin" id="Gn6-U4-Pgc"/>
                                     <action selector="foot_per_minute_convertion:" destination="qIf-NR-MRm" eventType="editingChanged" id="EB9-f8-vmG"/>
                                 </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kilometre per hour" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vAT-Ta-f1d">
-                                <rect key="frame" x="16" y="259" width="146" height="24"/>
+                                <rect key="frame" x="16" y="259" width="142.5" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4Bv-aS-EX0">
-                                <rect key="frame" x="166" y="256" width="193" height="30"/>
+                                <rect key="frame" x="162.5" y="256" width="196.5" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="alert"/>
                                 <connections>
                                     <action selector="kmphTouchBegin:" destination="qIf-NR-MRm" eventType="editingDidBegin" id="dMW-I7-2BP"/>
                                     <action selector="kmph_convertion:" destination="qIf-NR-MRm" eventType="editingChanged" id="zQc-5W-dvJ"/>
                                 </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Miles per hour" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="krr-qO-G7b">
-                                <rect key="frame" x="16" y="336" width="113" height="24"/>
+                                <rect key="frame" x="16" y="336" width="109.5" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AwR-7S-ocr">
-                                <rect key="frame" x="166" y="333" width="193" height="30"/>
+                                <rect key="frame" x="162.5" y="333" width="196.5" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="alert"/>
                                 <connections>
                                     <action selector="mphTouchBegin:" destination="qIf-NR-MRm" eventType="editingDidBegin" id="NmD-t2-cw5"/>
                                     <action selector="mph_convertion:" destination="qIf-NR-MRm" eventType="editingChanged" id="hcn-eE-kVA"/>
@@ -184,7 +178,7 @@
                                 <rect key="frame" x="139" y="108" width="220" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="alert"/>
                                 <connections>
                                     <action selector="metreTouchBegin:" destination="nfN-O6-GCA" eventType="editingDidBegin" id="Lav-Ok-kco"/>
                                     <action selector="metre_convertion:" destination="nfN-O6-GCA" eventType="editingChanged" id="Fzl-BT-HcV"/>
@@ -194,7 +188,7 @@
                                 <rect key="frame" x="139" y="170" width="220" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="alert"/>
                                 <connections>
                                     <action selector="footTouchBegin:" destination="nfN-O6-GCA" eventType="editingDidBegin" id="zIG-iV-ivP"/>
                                     <action selector="foot_convertion:" destination="nfN-O6-GCA" eventType="editingChanged" id="Lby-85-YJV"/>
@@ -204,7 +198,7 @@
                                 <rect key="frame" x="139" y="235" width="220" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="alert"/>
                                 <connections>
                                     <action selector="yardTouchBegin:" destination="nfN-O6-GCA" eventType="editingDidBegin" id="zmd-y9-4R0"/>
                                     <action selector="yard_convertion:" destination="nfN-O6-GCA" eventType="editingChanged" id="QCy-pI-15u"/>
@@ -214,7 +208,7 @@
                                 <rect key="frame" x="139" y="295" width="220" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="alert"/>
                                 <connections>
                                     <action selector="kilometreTouchBegin:" destination="nfN-O6-GCA" eventType="editingDidBegin" id="KyT-mo-lyB"/>
                                     <action selector="kilometre_convertion:" destination="nfN-O6-GCA" eventType="editingChanged" id="EhA-t7-G5b"/>
@@ -224,7 +218,7 @@
                                 <rect key="frame" x="139" y="363" width="220" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="alert"/>
                                 <connections>
                                     <action selector="mileTouchBegin:" destination="nfN-O6-GCA" eventType="editingDidBegin" id="T4i-iX-cm9"/>
                                     <action selector="mile_convertion:" destination="nfN-O6-GCA" eventType="editingChanged" id="Uqg-0Z-QlZ"/>
@@ -314,7 +308,7 @@
                                 <rect key="frame" x="139" y="108" width="220" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="alert"/>
                                 <connections>
                                     <action selector="celciusTextField:" destination="8dm-gK-gXi" eventType="valueChanged" id="dmQ-vo-Zva"/>
                                     <action selector="celciusTouchBegin:" destination="l66-M8-YPO" eventType="editingDidBegin" id="3f5-oT-nwO"/>
@@ -325,7 +319,7 @@
                                 <rect key="frame" x="139" y="190" width="220" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="alert"/>
                                 <connections>
                                     <action selector="fahrenheitTouchBegin:" destination="l66-M8-YPO" eventType="editingDidBegin" id="WFV-lt-mpP"/>
                                     <action selector="fahrenheit_conversion:" destination="l66-M8-YPO" eventType="editingChanged" id="cks-Vg-D0Q"/>
@@ -335,7 +329,7 @@
                                 <rect key="frame" x="139" y="267" width="220" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="alert"/>
                                 <connections>
                                     <action selector="kelvinTouchBegin:" destination="l66-M8-YPO" eventType="editingDidBegin" id="l7K-VA-qk7"/>
                                     <action selector="kelvin_conversion:" destination="l66-M8-YPO" eventType="editingChanged" id="nPs-wO-19r"/>
@@ -406,10 +400,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pound" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l13-q2-yEy">
-                                <rect key="frame" x="16" y="266" width="60" height="39"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="60" id="w1W-v5-ttx"/>
-                                </constraints>
+                                <rect key="frame" x="16" y="266" width="58" height="39"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -418,7 +409,7 @@
                                 <rect key="frame" x="119" y="106" width="241" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="alert"/>
                                 <connections>
                                     <action selector="gramTouchBegin:" destination="oKL-fC-qAG" eventType="editingDidBegin" id="mna-Ed-fDe"/>
                                     <action selector="gram_convertion:" destination="oKL-fC-qAG" eventType="editingChanged" id="GYe-Ai-gA9"/>
@@ -428,34 +419,34 @@
                                 <rect key="frame" x="119" y="184" width="241" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="alert"/>
                                 <connections>
                                     <action selector="kilogramTouchBegin:" destination="oKL-fC-qAG" eventType="editingDidBegin" id="xgS-Nu-beJ"/>
                                     <action selector="kilogram_conversion:" destination="oKL-fC-qAG" eventType="editingChanged" id="2IM-uD-7Rp"/>
                                 </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Orc-W6-UH7">
-                                <rect key="frame" x="118" y="270" width="241" height="30"/>
+                                <rect key="frame" x="116" y="270" width="243" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="alert"/>
                                 <connections>
                                     <action selector="poundTouchBegin:" destination="oKL-fC-qAG" eventType="editingDidBegin" id="SRG-uG-lIX"/>
                                     <action selector="pound_conversion:" destination="oKL-fC-qAG" eventType="editingChanged" id="yn3-k0-a78"/>
                                 </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1Lc-5G-KFQ">
-                                <rect key="frame" x="118" y="352" width="241" height="30"/>
+                                <rect key="frame" x="116" y="352" width="243" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="alert"/>
                                 <connections>
                                     <action selector="ounceTouchBegin:" destination="oKL-fC-qAG" eventType="editingDidBegin" id="MrP-8I-sbx"/>
                                     <action selector="ounce_conversion:" destination="oKL-fC-qAG" eventType="editingChanged" id="N6u-Zm-Npc"/>
                                 </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ounce" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JnS-TD-4cF">
-                                <rect key="frame" x="16" y="348" width="60" height="39"/>
+                                <rect key="frame" x="16" y="348" width="58" height="39"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
